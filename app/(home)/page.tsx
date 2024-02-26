@@ -6,13 +6,15 @@ import WebsiteDesign from "./_components/website-design";
 import GraphicDesign from "./_components/graphic-design";
 import ShopifyStores from "./_components/shopify-stores";
 import Brands from "./_components/brands";
+import Services from "./_components/services";
+import Fiq from "./_components/faq";
 
 export default function Home() {
   
   return (
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.2] relative overflow-hidden">
       <Navbar/>
-      <Spotlight className="left-20 hidden md:flex" fill="white" />
+      <Spotlight className="left-60 hidden md:flex" fill="white" />
 
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-24 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-5 text-center bg-clip-text text-transparent  bg-gradient-to-b from-neutral-50  bg-neutral-400 bg-opacity-50">
@@ -32,6 +34,8 @@ export default function Home() {
           <GraphicDesign/>
           <ShopifyStores/>
           <Brands/>
+          <Services />
+          <Fiq/>
         
         </div>
 
