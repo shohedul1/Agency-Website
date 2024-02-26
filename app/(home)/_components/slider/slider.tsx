@@ -6,7 +6,6 @@ import { useMediaQuery } from 'react-responsive';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
 const SliderOne = () => { 
   const isMediumScreen = useMediaQuery({ minWidth: 768, maxWidth: 1023 });
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
@@ -22,48 +21,42 @@ const SliderOne = () => {
   }
 
   if (isMediumScreen) {
-    settings.slidesToShow = 1.67
-
+    settings.slidesToShow = 1.67;
   } else if (isSmallScreen) {
-    settings.slidesToShow = 1
+    settings.slidesToShow = 1;
   }
+
   return (
     <div>
       <Slider {...settings}>
-        <>
+       <>
         <div className="rounded-md px-2 md:py-10 ">
-          <Image alt="logo" width={500} height={500} src={"/slick/slick4.jpg"} priority className="rounded-2xl " />
+          <Image alt="logo" width={500} height={500} src={"/slick/slick1.jpg"} className="rounded-2xl " />
         </div>
-        </>
-        <>
+       </>
+       <>
         <div className="rounded-md px-2 md:py-10 ">
-          <Image alt="logo" width={500} height={500} src={"/slick/small.jpg"} priority className="rounded-2xl " />
+          <Image alt="logo" width={500} height={500} src={"/slick/slick2.png"} className="rounded-2xl " />
         </div>
-        </>
-        <>
+       </>
+       <>
         <div className="rounded-md px-2 md:py-10 ">
-          <Image alt="logo" width={500} height={500} src={"/slick/slick5.jpeg"} priority className="rounded-2xl " />
+          <Image alt="logo" width={500} height={500} src={"/slick/slick3.jpg"} className="rounded-2xl " />
         </div>
-        </>
-        <>
+       </>
+       <>
         <div className="rounded-md px-2 md:py-10 ">
-          <Image alt="logo" width={500} height={500} src={"/slick/webdesiner.png"} priority className="rounded-2xl " />
+          <Image alt="logo" width={500} height={500} src={"/slick/slick4.jpg"} className="rounded-2xl " />
         </div>
-        </>
-        <>
+       </>
+       <>
         <div className="rounded-md px-2 md:py-10 ">
-          <Image alt="logo" width={500} height={500} src={"/slick/webdesing.jpg"} priority className="rounded-2xl " />
-        </div> 
-        </>
-      
-       
+          <Image  alt="logo" width={500} height={500} src={"/slick/slick5.jpeg"} className="rounded-2xl " />
+        </div>
+       </>
       </Slider>
-
     </div>
   )
 }
 
-export default SliderOne
-
-
-
+export default SliderOne;

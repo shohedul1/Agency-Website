@@ -1,14 +1,18 @@
 import Navbar from "@/app/(home)/_components/nabbar/navbar";
-import SliderOne from "@/app/(home)/_components/slick/slider";
 import { Spotlight } from "@/components/ui/Spotlight";
 import Link from "next/link";
+import SliderOne from "./_components/slider/slider";
+import WebsiteDesign from "./_components/website-design";
+import GraphicDesign from "./_components/graphic-design";
+import ShopifyStores from "./_components/shopify-stores";
+import Brands from "./_components/brands";
 
 export default function Home() {
   
   return (
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.2] relative overflow-hidden">
       <Navbar/>
-      <Spotlight className="left-80 hidden md:flex" fill="white" />
+      <Spotlight className="left-20 hidden md:flex" fill="white" />
 
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-24 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-5 text-center bg-clip-text text-transparent  bg-gradient-to-b from-neutral-50  bg-neutral-400 bg-opacity-50">
@@ -23,7 +27,12 @@ export default function Home() {
         </Link>
 
         <div className="w-full pt-20">
-          <SliderOne />
+          <SliderOne/>
+          <WebsiteDesign/>
+          <GraphicDesign/>
+          <ShopifyStores/>
+          <Brands/>
+        
         </div>
 
 
