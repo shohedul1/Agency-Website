@@ -1,5 +1,5 @@
-import Navbar from "@/components/navbar";
-import SliderOne from "@/components/slider";
+import Navbar from "@/app/(home)/_components/nabbar/navbar";
+import SliderOne from "@/app/(home)/_components/slick/slider";
 import { Spotlight } from "@/components/ui/Spotlight";
 import Link from "next/link";
 
@@ -22,9 +22,8 @@ export default function Home() {
           Book a call
         </Link>
 
-        <div className="w-full pt-20 ">
+        <div className="w-full pt-20">
           <SliderOne />
-            
         </div>
 
 

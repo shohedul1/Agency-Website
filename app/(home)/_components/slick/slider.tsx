@@ -31,32 +31,31 @@ const SliderOne = () => {
     <div>
       <Slider {...settings}>
         <>
-        <div className="px-2 md:py-10 relative w-[500px] h-[500px]">
-          <Image alt="logo" width={1000} height={1000} src={"/slick/slick4.jpg"} className="rounded-2xl" />
+        <div className="rounded-md px-2 md:py-10 ">
+          <Image alt="logo" width={500} height={500} src={"/slick/slick4.jpg"} priority className="rounded-2xl " />
         </div>
         </>
         <>
-        <div className="px-2 md:py-10 relative w-[500px] h-[500px]">
-          <Image alt="logo" width={1000} height={1000} src={"/slick/slick5.jpeg"} className="rounded-2xl" />
+        <div className="rounded-md px-2 md:py-10 ">
+          <Image alt="logo" width={500} height={500} src={"/slick/small.jpg"} priority className="rounded-2xl " />
         </div>
         </>
         <>
-        <div className="px-2 md:py-10 relative w-[500px] h-[500px]">
-          <Image alt="logo" width={1000} height={1000} src={"/slick/small.jpg"} className="rounded-2xl" />
+        <div className="rounded-md px-2 md:py-10 ">
+          <Image alt="logo" width={500} height={500} src={"/slick/slick5.jpeg"} priority className="rounded-2xl " />
         </div>
         </>
         <>
-        <div className="px-2 md:py-10 relative w-[500px] h-[500px]">
-          <Image alt="logo" width={1000} height={1000} src={"/slick/webdesiner.png"} className="rounded-2xl" />
+        <div className="rounded-md px-2 md:py-10 ">
+          <Image alt="logo" width={500} height={500} src={"/slick/webdesiner.png"} priority className="rounded-2xl " />
         </div>
         </>
         <>
-        <div className="px-2 md:py-10 relative w-[500px] h-[500px]">
-          <Image alt="logo" width={1000} height={1000} src={"/slick/webdesing.jpg"} className="rounded-2xl" />
-        </div>
+        <div className="rounded-md px-2 md:py-10 ">
+          <Image alt="logo" width={500} height={500} src={"/slick/webdesing.jpg"} priority className="rounded-2xl " />
+        </div> 
         </>
-
-       
+      
        
       </Slider>
 
