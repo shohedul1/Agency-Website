@@ -53,7 +53,7 @@ const PricingPage = () => {
               <div className={plan.button}>
                 {index === 0 && (
 
-                  <Link href ="/" 
+                  <Link href ="https://buy.stripe.com/test_cN24j5aIX8Hp0XSeUW" 
                   className='my-4 w-full mx-auto items-center flex justify-center text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'>
                     Buy Now
                   </Link>
@@ -61,7 +61,7 @@ const PricingPage = () => {
 
                 {index === 1 && (
 
-                  <Link href="/" 
+                  <Link href="https://buy.stripe.com/test_14k7vh8APe1JayscMN" 
                   className='my-4 w-full mx-auto items-center flex justify-center bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'>
                     Buy Now
                   </Link>

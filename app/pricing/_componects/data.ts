@@ -5,7 +5,7 @@ export const Plans =[
       
             index: 0,
             name: "Basic",
-            price: "US 5499",
+            price: "US 549",
             features: [
                 "Fully responsive on alt screents",
                 'Desing + Development',

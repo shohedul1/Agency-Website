@@ -116,7 +116,7 @@ export default function ContactForm() {
         scrollToshopifyStoresDesign={() => { }}
         scrollToBrandsDesing={() => { }}
       />
-      <div className="md:flex justify-center pt-20 px-8" >
+      <div className="md:flex justify-center py-20 px-8" >
         <div>
           <div className="text-5xl font-medium md:w-4/5 text-center bg-clip-text text-transparent bg-gradient-to-b flex items-center justify-center  from-purple-500  bg-gray-100 bg-opacity-50 ">
             Contact our sales team
@@ -147,7 +147,6 @@ export default function ContactForm() {
           </div>
         </div>
        
-
         <Form {...form}>
           {!submitted ? (
             <div className=" border  rounded-3xl px-6 py-4">
